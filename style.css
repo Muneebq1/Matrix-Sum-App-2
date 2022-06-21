@@ -1,71 +1,14 @@
-.input{
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    padding-left: 20px;
-}
-.con{
-  display: flex;
-  margin-top: 100px;
-}
-.matrix{
-    padding-left: 20px;
-}
-.button{
-    margin-top: 100px;
-}
-button{
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
+.matrix {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block
 }
 
-
-#box4{
-  border-left: 1px solid;
-  border-right: 1px solid;
-  position: relative;
-  top: -35%;
-  width: 130px;
-  margin-left: 15px;
-  border-radius: 20px;
+.form2 {
+    visibility: hidden;
 }
-@media (max-width: 800px) {
-    .con {
-      flex-direction: column;
-      margin-top: 40px;
-    }
-    .matrix{
-        padding: 10px;
-    }
-    .button{
-        margin-top: 40px;
-    }
-
-  }
-
-
-  @media (max-width: 400px){
-    .matrix{
-        width: 400px;
-
-    }
-    .con {
-        width: 400px;
-      }
-      .matrix{
-        padding: 10px;
-    }
-    .button{
-        margin-top: 40px;
-    }
-  }
-  @media (max-width: 1200px){
-    .matrix{
-        width: 400px;
-    }
-    
-  }
-  @media (max-width: 1200px){
-    
-  }
+.inputbox {
+    width: 172px;
+}
