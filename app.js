@@ -29,9 +29,9 @@ function start() {
       matix1.innerHTML += `<input type="number" required min="0" max="20" id="matirx1_${i}${j}" value="0">`;
 
       matix2.innerHTML += `<input type="number" required min="0" max="20" id="matirx2_${i}${j}" value="0">`;
-   
+
       result.innerHTML += `<input type="number" disabled required min="0" id="result_${i}${j}" max="20" value="0">`
-   
+
     }
     matix1.innerHTML += `<br>`;
     matix2.innerHTML += `<br>`;
@@ -43,7 +43,7 @@ function start() {
 
 function sum() {
 
- 
+
   let a = []
   let b = []
   for (let i = 0; i < row; i++) {
