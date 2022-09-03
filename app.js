@@ -80,11 +80,11 @@ function sum() {
   function multiply2(a, b) {
     var aNumRows = a.length, aNumCols = a[0].length,
       bNumRows = b.length, bNumCols = b[0].length,
-      m = new Array(aNumRows);  // initialize array of rows
+      m = new Array(aNumRows);  
     for (var r = 0; r < aNumRows; ++r) {
-      m[r] = new Array(bNumCols); // initialize the current row
+      m[r] = new Array(bNumCols); 
       for (var c = 0; c < bNumCols; ++c) {
-        m[r][c] = "";             // initialize the current cell
+        m[r][c] = "";             
         for (var i = 0; i < aNumCols; ++i) {
           m[r][c] += i == 0 ? ` \n(${a[r][i]} x ${b[i][c]}) ` : `  + (${a[r][i]} x ${b[i][c]})`
         }
@@ -101,13 +101,18 @@ function sum() {
     multiplyElement.innerText = mult1;
 
   }
-
-
-
-
-
-
 }
+
+(() => {
+
+setInterval(() => {
+  document.querySelector("#row").classList.toggle("inputbox")
+  document.querySelector("#col").classList.toggle("inputbox")
+  document.querySelector("#h1").classList.toggle("inputbox")
+}, 2000);
+
+})()
+
 
 
 

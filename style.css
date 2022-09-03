@@ -1,15 +1,82 @@
+body {
+    text-align: center;
+    background-image: url(640208.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .matrix {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
-    display: inline-block
+    display: inline-block;
+
 }
 
 .form2 {
     visibility: hidden;
 }
 
+#row {
+    box-shadow: 0 2px 8px 0 black;
+    width: 250px;
+    height: 40px;
+    margin-top: 7%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 3%;
+}
+
+#col {
+    margin-left: 3%;
+    font-size: 16px;
+    box-shadow: 0 2px 8px 0 black;
+    width: 250px;
+    height: 40px;
+    margin-top: 7%;
+    border-radius: 50%;
+    text-align: center;
+}
+
 .inputbox {
-    width: 172px;
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+h1{
+    display: inline;
+    color: white;
+    
+}
+
+input {
+    height: 20px;
+    width: 50px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+span {
+    color: darkred;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+#box4{
+    color: white;
 }

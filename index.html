@@ -6,28 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>MATRIX</title>
 </head>
 
-<body>
-  <h1>Matrix Sum App2</h1>
+<body> 
+  <h2>Matrix<span>Multiply</span></h2>
 
 
   <form onsubmit="start();return false">
+    
     <input type="number" id="row" min="1" max="8" required class="inputbox">
-    X
+   <h1 id="h1" class="inputbox">X</h1>
     <input type="number" id="col" min="1" max="8" required class="inputbox">
-    <button type="submit">START</button>
+   <br> <br> <button type="submit" >START</button>
   </form>
   <br><br>
   <form action="" class="form2" onsubmit="sum() ; return false" id="form">
 
     <div id="box1" class="matrix"></div>
     <div id="box2" class="matrix"></div>
-    <button type="submit" class="button">submit</button>
-    <div id="box4" class="matrix"></div>
     <div id="box3" class="matrix"></div>
-
+    <button type="submit" class="button">submit</button>
+    <br>
+    <div id="box4" class="matrix"></div>
   </form>
 
   <script src="./app.js"></script>
